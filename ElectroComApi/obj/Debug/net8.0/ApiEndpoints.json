@@ -1,0 +1,239 @@
+[
+  {
+    "ContainingType": "ElectroComApi.Controllers.OrderConfirmationController",
+    "Method": "ConfirmOrder",
+    "RelativePath": "api/OrderConfirmation",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "responseDto",
+        "Type": "ElectroComApi.DTO.QuotationResponseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectroComApi.Controllers.OrderConfirmationController",
+    "Method": "GetAllOrderConfirmations",
+    "RelativePath": "api/OrderConfirmation",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectroComApi.Controllers.OrderConfirmationController",
+    "Method": "GetOrderConfirmation",
+    "RelativePath": "api/OrderConfirmation/{orderId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectroComApi.Controllers.OrderConfirmationController",
+    "Method": "UpdateOrderConfirmation",
+    "RelativePath": "api/OrderConfirmation/{orderId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "ElectroComApi.DTO.OrderConfirmationDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectroComApi.Controllers.OrderConfirmationController",
+    "Method": "DeleteOrderConfirmation",
+    "RelativePath": "api/OrderConfirmation/{orderId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectroComApi.Controllers.QuoRequestController",
+    "Method": "PostQuotationRequest",
+    "RelativePath": "api/QuoRequest",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "requestDto",
+        "Type": "ElectroComApi.DTO.QuotationRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectroComApi.Controllers.QuoRequestController",
+    "Method": "GetAllQuotationRequests",
+    "RelativePath": "api/QuoRequest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectroComApi.Controllers.QuoRequestController",
+    "Method": "GetQuotationRequest",
+    "RelativePath": "api/QuoRequest/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectroComApi.Controllers.QuoRequestController",
+    "Method": "UpdateQuotationRequest",
+    "RelativePath": "api/QuoRequest/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "ElectroComApi.DTO.QuotationRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectroComApi.Controllers.QuoRequestController",
+    "Method": "DeleteQuotationRequest",
+    "RelativePath": "api/QuoRequest/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectroComApi.Controllers.QuoResponseController",
+    "Method": "GetAllQuotationResponses",
+    "RelativePath": "api/QuoResponse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectroComApi.Controllers.QuoResponseController",
+    "Method": "CreateQuotationResponse",
+    "RelativePath": "api/QuoResponse",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "ElectroComApi.DTO.QuotationResponseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectroComApi.Controllers.QuoResponseController",
+    "Method": "GetQuotationResponse",
+    "RelativePath": "api/QuoResponse/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectroComApi.Controllers.QuoResponseController",
+    "Method": "UpdateQuotationResponse",
+    "RelativePath": "api/QuoResponse/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "dto",
+        "Type": "ElectroComApi.DTO.QuotationResponseDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ElectroComApi.Controllers.QuoResponseController",
+    "Method": "DeleteQuotationResponse",
+    "RelativePath": "api/QuoResponse/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
